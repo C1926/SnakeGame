@@ -1,6 +1,9 @@
 package com.snake.game.bg;
 
+import sun.plugin.viewer.context.AxBridgeAppletContext;
+
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author swx
@@ -8,8 +11,8 @@ import javax.swing.*;
  * <p> creat by 2020/3/31 on 17:09
  */
 public class Gsnake {
+    private   static ImageIcon icon= new ImageIcon("./resource/img/icon.jpg");
     public static void main(String[] args) {
-        ImageIcon icon= new ImageIcon("./img/icon.jpg");
         JFrame frame = new JFrame();//创建窗口
         frame.setTitle("Snake Game");
         //设置窗口图标
